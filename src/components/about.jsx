@@ -1,5 +1,6 @@
 import React from "react";
 import myImage from "../img/myImage.png";
+import './about.css'
 
 class About extends React.Component {
   constructor() {
@@ -24,18 +25,18 @@ class About extends React.Component {
         {
           id: "Python_skill",
           content: "Python",
-          porcentage: "75%",
-          value: "75"
+          porcentage: "80%",
+          value: "80"
         },
         {
-          id: "VanillaJS_skill",
-          content: "VanillaJS",
-          porcentage: "85%",
-          value: "85"
+          id: "Java_skill",
+          content: "Java",
+          porcentage: "95%",
+          value: "95"
         },
         {
-          id: "Wordpress_skill",
-          content: "Wordpress",
+          id: "Kotlin_skill",
+          content: "Kotlin",
           porcentage: "80%",
           value: "80"
         }
@@ -43,18 +44,20 @@ class About extends React.Component {
       about_me: [
         {
           id: "first-p-about",
-          content:
-            "Lorem ipsum pariatur consectetur laboris occaecat nulla aliqua irure ad deserunt duis. Eiusmod nulla cupidatat labore sint sit aute dolore irure nostrud ut incididunt. Anim laborum reprehenderit labore magna ut dolore quis irure. Labore ea duis deserunt ullamco irure fugiat deserunt ut nisi ea minim proident. Nisi consectetur do non magna duis aliqua minim minim veniam. In occaecat minim qui consequat elit mollit consectetur non id tempor. Amet adipisicing occaecat tempor culpa quis est duis."
+          content: "First Paragraph about me, my name is dinda majesty, i was born on may 13, 2020 in Lubuk Sikaping, I'm 21 years old now"
         },
         {
           id: "second-p-about",
-          content:
-            "Lorem ipsum pariatur consectetur laboris occaecat nulla aliqua irure ad deserunt duis. Eiusmod nulla cupidatat labore sint sit aute dolore irure nostrud ut incididunt. Anim laborum reprehenderit labore magna ut dolore quis irure. Labore ea duis deserunt ullamco irure fugiat deserunt ut nisi ea minim proident. Nisi consectetur do non magna duis aliqua minim minim veniam. In occaecat minim qui consequat elit mollit consectetur non id tempor. Amet adipisicing occaecat tempor culpa quis est duis."
+          content: "Second Paragraph about me, I'm studying informatics engineering in Politeknik Pos Indonesia"
         },
         {
           id: "third-p-about",
-          content:
-            "Lorem ipsum pariatur consectetur laboris occaecat nulla aliqua irure ad deserunt duis. Eiusmod nulla cupidatat labore sint sit aute dolore irure nostrud ut incididunt. Anim laborum reprehenderit labore magna ut dolore quis irure. Labore ea duis deserunt ullamco irure fugiat deserunt ut nisi ea minim proident. Nisi consectetur do non magna duis aliqua minim minim veniam. In occaecat minim qui consequat elit mollit consectetur non id tempor. Amet adipisicing occaecat tempor culpa quis est duis."
+          content: "Third Paragraph about me, I'm from Indonesia, I'v been living in bandung since 2018"
+        },
+        ,
+        {
+          id: "fourth-p-about",
+          content: "Fourth Paragraph about me, I am a person who likes research and analysis of the latest and most popular technology on informatics engineering. I always improve my skills and I am an Open Minded person so I am able to receive ideas and various information. I can develop software individually and work with a team. I have a very impressive work experience."
         }
       ]
     };

@@ -28,6 +28,9 @@ import Contact from './components/contact.jsx';
 import BackToTop from './components/back-top.jsx';
 import Preloader from './components/preloader';
 
+//import container
+import PortfolioContainer from './container/Portfolio'
+
 
 
 ReactDOM.render(
@@ -35,7 +38,7 @@ ReactDOM.render(
         <Navbar />
         <Intro />
         <About />
-        <Portfolio />
+        <PortfolioContainer />
         <Contact />
         <BackToTop />
         <Preloader />
